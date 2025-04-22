@@ -1,2 +1,3 @@
 [tool.taskify.tasks]
-server = "flask run -h localhost -p 4000 --debug"
+server = "flask run --debug"
+teste = "flask --app teste --debug run"
